@@ -37,6 +37,8 @@ while (true) {
   }
 }
 
+// Choose Operator
+
 while (true) {
   operator = prompt("Choose Operator (+, -, *, /)");
   switch (operator) {
@@ -54,6 +56,8 @@ while (true) {
 
 // Depending on the chosen operation, perform the calculation using appropriate arithmetic
 // operators and store the result in a new variable (e.g., let result).
+
+// Calculation with chosen operator
 
 let result;
 switch (operator) {
@@ -77,7 +81,11 @@ switch (operator) {
     alert("An error occurred.");
 }
 
+// Alerting result
+
 alert(`The result is: ${result}`);
+
+// Asking for another calculation
 
 const choice = prompt("Another Calculation ? (yes / no )");
 continueCalculating = choice.toLowerCase() === "yes";
